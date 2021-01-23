@@ -1,0 +1,128 @@
+#base, #banner, #intro, #group, #buttons, #hint, #spinblend, #spin, #tree, #charge, #mass, #detail{
+    opacity: 0;
+}
+
+#spinblend {
+    mix-blend-mode: difference;
+}
+
+#buttonGroup {
+    opacity: 1;
+    position: absolute;
+    width: 7.8%;
+    left: 39.4%;
+    top: 3%;
+    height: 5.4%;
+
+    padding:0px;
+    margin:0px;
+}
+
+#buttonSpin {
+    opacity: 1;
+    position: absolute;
+    width: 7.8%;
+    left: 48.3%;
+    top: 3%;
+    height: 5.4%;
+
+    padding:0px;
+    margin:0px;
+}
+#buttonMass {
+    opacity: 1;
+    position: absolute;
+    width: 7.8%;
+    left: 57%;
+    top: 3%;
+    height: 5.4%;
+
+    padding:0px;
+    margin:0px;
+}
+#buttonDetail {
+    opacity: 1;
+    position: absolute;
+    width: 7.8%;
+    left: 65.8%;
+    top: 3%;
+    height: 5.4%;
+
+    padding:0px;
+    margin:0px;
+}
+#buttonCharge {
+    opacity: 1;
+    position: absolute;
+    width: 7.8%;
+    left: 74.6%;
+    top: 3%;
+    height: 5.4%;
+
+    padding:0px;
+    margin:0px;
+}
+
+#maindiv {
+    position:absolute;
+    width: 92vw;
+    left: 2%;
+
+    height: 100%;
+
+    padding:0px;
+    margin:0px;
+}
+
+html {
+    padding:0px;
+    margin:0px;
+
+    width: 100%;
+
+    background: url('bg.png') no-repeat center center fixed; 
+    background-size: cover;
+}
+
+body {
+    padding:0px;
+    margin:0px;
+
+    width: 100%;
+}
+
+img {
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+
+    padding:0px;
+    margin:0px;
+
+    width: 100%;
+}
+
+.introFade {
+    animation: fadein 5s;
+}
+
+.fadeIn {
+    opacity: 0;
+    animation: fadein 3s;
+}
+.fadeOut {
+    opacity: 1;
+    animation: fadeout 3s;
+}
+
+@keyframes fadein {
+    0% { opacity: 0; }
+    100%   { opacity: 1; }
+}
+
+@keyframes fadeout {
+    0% {opacity: 1}
+    100% {opacity: 0}
+}
